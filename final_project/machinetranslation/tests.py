@@ -9,6 +9,6 @@ class TestSquare(unittest.TestCase):
 class TestDouble(unittest.TestCase): 
     def test1(self): 
         self.assertEqual(frenchToEnglish('Bonjour'), 'Hello') 
-        self.assertNotEqual(frenchToEnglish('Bonjour'), 'Hello') 
+        self.assertNotEqual(frenchToEnglish('Bonjour'), 'Bonjour') 
        
 unittest.main()
